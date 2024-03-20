@@ -31,3 +31,32 @@ b=False
 print(a and b)
 #los operados boleanos y de comparción son muy utilizados al
 #definir condiciones
+
+#sentencias de control de código: en general un programa se ejecuta 
+#linea por línea de manera sencuencial se puede romper esa sencuencialidad
+# empleando un conjunto de sentencias(expresiones) que permite: 
+#1. selecccionar la ejecución de un bloque de código
+#2. repetir la ejecución de un blque de codigo 
+#3. seleccionar entre ejecutar un bloqyue de código u otro bloque de código
+# de esa manera podemos "romper" la secuencialidad
+#princios del paradigma de programación estructurado
+
+#sentencia if. si se cumple una condición (se evalua como true)se ejecuta como un bloque de codigo
+
+print("linea 1")
+print("linea 2")
+
+if 5>8 or 3<7: 
+    print("esto se muestra si la condición es verdadera")
+else:
+    print("esto se muestra si la condición es false")
+    
+entrada=int(input("cuantos años tiene?"))
+
+if entrada<18:
+    print("es un menor de edad")
+else:
+    print("es un mayor de edad")
+    
+#taller crear un programa en python que genere un numero aleatorio 
+#entre 2 y 12. sin el numero es 7 imprimir ganó 
